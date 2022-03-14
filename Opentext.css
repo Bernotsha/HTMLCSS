@@ -1,0 +1,519 @@
+@font-face {
+    font-family: light;
+    src: url(./assests/fonts/OpenTextSans_Lt.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(./assests/fonts/OpenTextSans_Rg.ttf);
+}
+
+@font-face {
+    font-family: extrabold;
+    src: url(./assests/fonts/OpenTextSans_Bd.ttf);
+}
+
+body{
+    background-color: #F7F7F7;
+    height: 96vh;
+}
+
+.white{
+    color: white;
+}
+
+.light{
+    font-family: light;
+}  
+
+.regular{
+    font-family: regular;
+}
+
+.font10{
+    font-size: 10px;
+}
+
+.font12{
+    font-size: 12px;
+}
+
+.font14{
+    font-size: 14px;
+}
+
+.font16{
+    font-size: 16px;
+}
+
+.extrabold{
+    font-family: extrabold;
+}
+
+.triangle_right{
+    width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-left: 24px solid #1A6Aff;
+	border-bottom: 12px solid transparent;
+    position: relative;
+    left: 35%;
+}
+
+.circle1{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #232E72;
+    top: 25px;
+    position: absolute;
+    opacity: 0.4;
+    right: 25%;
+
+}
+.circle2{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #232E72;
+    position: absolute;
+    bottom: 30px;
+    opacity: 0.4;
+    left: 40%;
+
+}
+.triangle_right1{
+    width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-left: 24px solid #1A6Aff;
+	border-bottom: 12px solid transparent;
+    position: relative;
+    left: 15%;
+}
+
+.active{
+    border-left: 2px solid #111B58;
+    border-radius: 2px;
+}
+
+.oval {
+    height: 100px;
+    width: 170px;
+    background-color: #1A6Aff;
+    border-radius: 90%;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    transform: rotate(45deg);
+}
+
+
+
+.diamondsection1{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+}
+
+.diamondsection2{
+    position: absolute;
+    bottom: 25px;
+    right: 20%;
+}
+
+.opentext{
+    margin: 0px 60px 0px 60px;
+}
+
+.opentext > .content{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.opentext > .content > header{
+    width: 100%;
+    height: 64px;
+    background-image: linear-gradient(to right,#111B58,#111B5B, #078DB3);
+}
+.opentext > .content > header > .navbarflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.opentext > .content > header > .navbarflex > .opentextlogo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.opentext > .content > header > .navbarflex > .opentextlogo > img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li > .loginuserinfo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li{
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li:nth-child(6){
+    margin-right: 32px;
+}
+
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li:nth-child(4){
+    margin-right: 24px;
+}
+
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li:nth-child(3){
+    margin-right: 24px;
+}
+
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li:nth-child(5){
+    margin-right: 24px;
+}
+
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li:nth-child(2){
+    color: white;
+    margin-right: 24px;
+    font-size: 12px;
+    font-family: regular;
+}
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li:nth-child(1){
+    margin-right: 10px;
+}
+
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li > .loginuserinfo > .profilelogo{
+    border-radius: 50%;
+    border: 2px solid #707070;
+    width: 42px;
+    height: 42px;
+}
+
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li > .profilelogo{
+    border-radius: 50%;
+    border: 2px solid #707070;
+    text-align: center;
+    width: 42px;
+    height: 42px;
+}
+
+.profilelogo > img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+.opentext > .content > header > .navbarflex > .navigationiconitems > ul > li > .profilelogo:hover{
+    border: 2px solid white;
+}
+.opentext > .content > .maincontent{
+    display: flex;
+    flex-direction: row;
+}
+
+.opentext > .content > .maincontent > .sidebar{
+    width: 20%;
+    border-right: 2px solid #E1E8F6;
+}
+
+.opentext > .content > .maincontent > .sidebar > .profilecard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 32px;
+}
+
+.opentext > .content > .maincontent > .sidebar > .profilecard > .usercontent{
+    width: 44px;
+    height: 44px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opentext > .content > .maincontent > .sidebar > .profilecard > .usercontent > .logotext{
+    display: inline-block;
+}
+
+.opentext > .content > .maincontent > .sidebar > .profilecard > .contentcard{
+    margin-left: 12px;
+}
+
+
+.opentext > .content > .maincontent > .sidebar > .profilecard > .contentcard > .userbold{
+    margin-bottom: 4px;
+}
+
+.opentext > .content > .maincontent > .sidebar > .profilecard > .contentcard > .userlight{
+
+}
+
+.opentext > .content > .maincontent > .sidebar > .menuitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menuitem:hover{
+    background-color: #EFEFEF;
+}
+
+.menuitem:hover .menutext{
+    color: #111B58;
+}
+
+
+
+
+
+.opentext > .content > .maincontent > .sidebar > .menuitem > .menutext{
+    padding-left: 30px;
+    margin-left: 5px;
+}
+
+.opentext > .content > .maincontent > .sidebar > .menuitem > .menuicon{
+    padding-right: 32px;
+}
+
+
+
+.opentext > .content > .maincontent > .dashboard{
+    width: 75%;
+    padding-left: 32px;
+    padding-top: 20px;
+    padding-right: 32px;
+}
+
+.opentext > .content > .maincontent > .dashboard > .dashboardcard{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.opentext > .content > .maincontent > .dashboard > .dashboardcard > .cardsize{
+    width: 33.33%;
+}
+
+.cardgradient1{
+    background-color: #1A6AFF;
+    z-index: 1;
+}
+
+.cardgradient2{
+    background-color: #232E72;
+}
+
+.cardgradient3{
+    background-color: #171F4C;
+}
+
+.opentext > .content > .maincontent > .dashboard > .dashboardcard > .cardsize > .cardcontent{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
+
+}
+
+.opentext > .content > .maincontent > .dashboard > .dashboardcard > .cardsize > .cardcontent > .cardtitle{
+    margin-top: 8px;
+    color: white;
+}
+
+.opentext > .content > .maincontent > .dashboard > .dashboardcard > .cardsize > .cardcontent > .cardamount{
+    margin-top: 8px;
+    color: white;
+}
+
+.opentext > .content > .maincontent > .dashboard > .dashboardcard > .cardsize > .cardcontent > .cardlogistics{
+    margin-top: 16px;
+    color: white;
+}
+
+.tablesectiontitle{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+#addmyproject{
+    text-align: center;
+    width: 100%;
+    height: 26px;
+    background-color: #232E72;
+    color: white;
+    border-radius: 16px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+
+
+  .tablesection{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.tablesection td{
+    text-align: left;
+    font-size: 12px;
+    font-family: regular;
+    color: #333333;
+    padding: 10px 20px;
+}
+.tablesection th{
+    text-align: left;
+    font-size: 12px;
+    font-family: regular;
+    color: #333333;
+    padding: 20px;
+}
+
+.tablesection > table{
+    width: 100%;
+}
+
+tr:nth-child(odd){
+    background-color: #EFEFEF;
+}
+
+table,td,th{
+    border: 1px solid #D1D1D1;
+    border-collapse: collapse;
+}
+
+.statusintable{
+    display: inline-block;
+    background-color: #111B58;
+    color: white;
+    font-size: 8px;
+    padding: 5px 12px;
+    text-align: center;
+}
+
+
+
+
+
+#diamond {
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom-color: #232E72;
+    opacity: 0.8;
+    position: relative;
+    top: -12px;
+  }
+  #diamond:after {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 12px;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-top-color: #232E72;
+  }
+
+  .cardpadding{
+    padding: 0px 10px;
+  }
+
+  
+@media only screen and (min-width:320px) and (max-width: 600px) {
+
+    .opentext{
+        margin: 0px 20px 0px 20px;
+        z-index: 1;
+    }
+    .opentext > .content > .maincontent > .sidebar{
+        display: none;
+    }
+    .opentext > .content > .maincontent > .dashboard{
+        width: 100%;
+    }
+    .opentext > .content > .maincontent > .dashboard > .dashboardcard{
+        display: block;
+        margin-top: 20px;
+    }
+    
+    .opentext > .content > .maincontent > .dashboard > .dashboardcard > .cardsize{
+        width: 100%;
+    }
+    .bottomdecoration{
+        display: none;
+    }
+
+    .cardpadding{
+        padding: 0px;
+    }
+
+    .opentext > .content > .maincontent > .dashboard > .dashboardcard > .cardsize > .cardcontent{
+        margin-top: 20px;
+    
+    }
+
+    .opentext > .content > header > .navbarflex > .opentextlogo{
+        margin-left: 10px;
+    }
+
+    .opentext > .content > header{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right,#111B58,#111B5B, #078DB3);
+    }
+
+    .opentext > .content > header > .navbarflex{
+        display: block;
+    }
+
+    .navigationiconitems{
+        padding: 10px 0px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 1200px) {
+    .opentext{
+        margin: 0px 20px 0px 20px;
+        z-index: 1;
+    }
+    .opentext > .content > .maincontent > .sidebar{
+        display: none;
+    }
+    .opentext > .content > .maincontent > .dashboard{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
