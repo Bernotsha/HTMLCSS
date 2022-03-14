@@ -108,6 +108,27 @@ body{
     transform: rotate(45deg);
 }
 
+.topcirclestyle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    opacity: 20%;
+    right: -40px;
+    top: 0;
+}
+
+.bottomcirclestyle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    opacity: 20%;
+    right: -10px;
+    top: 50%;
+}
 
 
 .diamondsection1{
